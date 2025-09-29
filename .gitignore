@@ -1,0 +1,25 @@
+# object / build artifacts
+*.o
+*.ko
+*.mod
+*.cmd
+*.dwo
+*.a
+*.so
+*.gcno
+*.gcda
+*.order
+*.symvers
+Module.symvers
+modules.order
+.vscode/
+.tmp_versions/
+.debian/
+.debhelper/
+*.tmp
+# kernel images (보통은 올리지 않음)
+vmlinux
+arch/*/boot/bzImage
+cscope.*
+tags
+
